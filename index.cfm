@@ -13,6 +13,7 @@
 				AND inactive = 0
 	</cfquery>
 	<cfif rsUser.RecordCount>
+		<cflogout />
 		<cfset application.serviceFactory.getBean("userUtility").loginByQuery(rsUser) />
 		<cflocation addtoken="false" url="http://#application.settingsManager.getSite(session.siteid).getDomain()##application.configBean.getServerPort()##application.configBean.getContext()#" />
 	</cfif>
