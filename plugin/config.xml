@@ -1,0 +1,12 @@
+<plugin>
+<name>Impersonate User</name>
+<!-- the package value becomes a part of the directory name where the plugin is installed. -->
+<package>ImpersonateUser</package>
+<version>1.0</version>
+<provider>Seb Duggan</provider>
+<providerURL>http://sebduggan.com</providerURL>
+<category>Utility</category>
+<settings/>
+<eventHandlers/>
+<displayobjects/>
+</plugin>
